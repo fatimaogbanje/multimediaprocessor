@@ -5,7 +5,7 @@ import "./App.css";
 
 const App = () => {
   const [resultData, setResultData] = useState(null);
-  const API_KEY = "AIzaSyCemzC2tyovxQYk5TfHksLXl5G82iDnbOk"; 
+  const API_KEY = ""; 
 
   const handleFileProcessed = async (initialResultData, file, fileType) => {
     try {
